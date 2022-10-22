@@ -51,22 +51,38 @@ Debería quedar un arbol así:
 * [Python >= 3.7](https://www.python.org/downloads/release/python-370/)
 
 ## Dependencias
-* Instalar usando pip
-```
-$ pip install -r requirements.txt
-```
-Incluye:
-* [Flask](https://flask.palletsprojects.com/en/2.1.x/)
-* [Requests](https://pypi.org/project/requests/)
-* [Python-Dotenv](https://pypi.org/project/python-dotenv/)
+Para probar en un entorno virtual, utilizar [venv](https://docs.python.org/3/library/venv.html) de Python.
 
+Dentro de la carpeta del proyecto, ejecutar:
+```
+$ python -m venv .venv
+```
+### Acitvar el virtual-env
+* Windows
+```
+$ cd .venv/scripts
+$ activate
+(.venv) $ cd ..
+(.venv) $ cd ..
+```
+* Linux
+```
+$ source .venv/bin/activate
+(.venv) $
+```
+
+## Instalar Dependencias
+Instalar usando pip
+```
+(.venv) $ pip install -r requirements.txt
+```
 
 ## Cómo Usar
 
 ### Inicializar
 Una vez instaladas todas las dependencias, ejecutar el archivo `run.py`
 ```
-$ python run.py
+(.venv) $ python run.py
 ```
 Y la aplicación comenzará a ejectuar en entorno Local con el puerto 5000 (`localhost:5000`).
 

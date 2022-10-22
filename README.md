@@ -29,6 +29,11 @@ $ git clone https://github.com/Brixt18/GlobantTechInterview
 ```
 O descargando el archivo .zip del mismo.
 
+Una vez clonado el proyecto, **Crear** dentro de la carpeta `app/config` un archivo `.env` con las variables de entorno.
+```
+SECRET_KEY=MySuperSecretKey
+```
+
 ## Requisitos
 * [Python >= 3.7](https://www.python.org/downloads/release/python-370/)
 

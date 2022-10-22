@@ -58,7 +58,7 @@ $ pip install -r requirements.txt
 Incluye:
 * [Flask](https://flask.palletsprojects.com/en/2.1.x/)
 * [Requests](https://pypi.org/project/requests/)
-* [Dotenv](https://pypi.org/project/python-dotenv/)
+* [Python-Dotenv](https://pypi.org/project/python-dotenv/)
 
 
 ## Cómo Usar

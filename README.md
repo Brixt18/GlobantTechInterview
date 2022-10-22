@@ -34,6 +34,19 @@ Una vez clonado el proyecto, **Crear** dentro de la carpeta `app/config` un arch
 SECRET_KEY=MySuperSecretKey
 ```
 
+Debería quedar un arbol así:
+```bash
+└───app
+    ├───api
+    │   └───...
+    ├───config
+    │   └───.env
+    ├───utils
+    │   └───...
+    └───...
+```
+
+
 ## Requisitos
 * [Python >= 3.7](https://www.python.org/downloads/release/python-370/)
 

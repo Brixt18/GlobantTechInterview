@@ -53,4 +53,10 @@ $ python run.py
 Y la aplicación comenzará a ejectuar en entorno Local con el puerto 5000 (`localhost:5000`).
 
 ## Probar
+
+### Localmente
 Para verificar el enpoint, abrir en su navegador de preferencia, mientras al aplicación está ejecutandose, la URL: `localhost:5000/allBerryStats`, y esta debería retonar un JSON con los parámetros establecidos anteriormente.
+
+### Internet
+La aplicación tiene un deploy hecho en Heroku: [TechInterview-Heroku](https://globant-tech-interview.herokuapp.com/allBerryStats/)
+(https://globant-tech-interview.herokuapp.com/allBerryStats/) 
